@@ -1,5 +1,5 @@
 {
-  "name": "rsuite-table",
+  "name": "@vltansky/rsuite-table",
   "version": "5.10.1",
   "description": "A React table component",
   "main": "lib/index.js",
