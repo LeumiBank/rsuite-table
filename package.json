@@ -24,7 +24,7 @@
     "prepublishOnly": "npm run build",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
-  "author": "simonguo.2009@gmail.com",
+  "author": "vl.tansky@gmail.com",
   "license": "MIT",
   "files": [
     "CHANGELOG.md",

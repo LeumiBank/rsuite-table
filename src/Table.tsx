@@ -1075,7 +1075,7 @@ const Table = React.forwardRef(<Row extends RowDataType, Key>(props: TableProps<
   const contextValue = React.useMemo(
     () => ({
       classPrefix,
-      translateDOMPositionXY: translateDOMPositionXY.current,
+      translateDOMPositionXY: null,
       rtl,
       isTree,
       hasCustomTreeCol

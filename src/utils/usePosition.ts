@@ -186,7 +186,7 @@ const usePosition = (props: PositionProps) => {
     forceUpdatePosition: updatePosition,
     deferUpdatePosition: (nextDuration?: number, nextBezier?: string) => {
       defer(() => {
-        updatePosition(nextDuration, nextBezier);
+        // updatePosition(nextDuration, nextBezier);
       });
     }
   };
